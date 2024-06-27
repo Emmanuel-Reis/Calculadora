@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+}
+
+body {
+  background: #303136;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  align-items: center;  
+}
+
+div {
+  background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+  border-radius: 39px;
+  width: 375px;
+  height: 568px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  padding: 20px;
+}
+
+input {
+  font-size: 48px;
+  grid-column: 1 / 5;
+  grid-row: 1 / 3;
+  background: #17181A;
+  border: none;
+  outline: none;
+  text-align: right;
+  padding-top: 50px;
+}
+
+button {
+  font-size: 24px;
+  border: none;
+  border-radius: 39px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  opacity: 0.8;
+  
+}
+
+button:active {
+  color: #5ce835;  
+}
+
+.black-button {
+  background: linear-gradient(90deg, #303136, #212121); 
+}
+
+.blue-button {
+  background: linear-gradient(90deg, #00990d, #15d100);
+}
+
+.equal-button {
+  background: linear-gradient( 90deg, #093d00, #047500);
+  grid-column: 4 / 5;
+  grid-row: 6 / 8;
+}
+
+.gray-button {
+  background: linear-gradient( 90deg, #a6a6a6ff, #575757);
+}
+
+.zero {
+  grid-column: 1 / 3;
+}
